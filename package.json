@@ -1,0 +1,24 @@
+{
+  "name": "just_chat",
+  "version": "1.0.0",
+  "description": "this is a real time chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "goo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deeptirtha/chat_application.git"
+  },
+  "author": "Deeptirtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deeptirtha/chat_application/issues"
+  },
+  "homepage": "https://github.com/Deeptirtha/chat_application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
