@@ -2,7 +2,7 @@ const socket = io()
 let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
-let audio= new Audio('tone.mp3')
+let audio= new Audio('tune.mp3')
 do {
     name = prompt('Please enter your name: ')
 } while(!name)
